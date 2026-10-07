@@ -3,3 +3,65 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+nav a{
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    padding: 7px 14px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.anka{
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px 14px;
+    color: #ffffff;
+}
+
+nav .websiteName{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 36px;
+    letter-spacing: 5px;
+}
+
+nav .login-bar{
+    display: flex;
+    align-items: center;
+}
+
+nav .login-bar .login{
+    font-size: 25px;
+    padding: 10px 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+    background-color: orange;
+    text-shadow: 0 0 4px black;
+    border-radius: 10px;
+}
+
+nav{
+    background-color: dodgerblue;
+}
+
+nav .websiteName{
+    color: #ffffff;
+    font-style: italic;
+    text-shadow: 4px 5px 2px black;
+}
+
+.anka{
+    background-color: #ffffff;
+    color: dodgerblue;
+    border-radius: 10px;
+}

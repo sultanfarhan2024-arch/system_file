@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My File web Page</title>
+    <title><?php echo ucfirst("javascript related program with php and css stylesheet");?></title>
 </head>
 <body>
     

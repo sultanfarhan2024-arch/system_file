@@ -20,6 +20,15 @@
             <a href="#" class="login">Login</a>
         </div>
     </nav>
+    <?php
+    $num1 = 35;
+    $num2 = 56;
+    echo $num1 + $num2;
+    for($i = 1; $i <= 10; $i++){
+        echo "<br> No.".$i;
+    }
+    
+    ?>
     
 
 

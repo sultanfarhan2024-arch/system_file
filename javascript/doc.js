@@ -45,3 +45,12 @@ console.log(sum);
 let avgNumber = sum / arry.length;
 
 console.log(avgNumber);
+
+let amjad = {
+    name: "Amjad",
+    age: 23,
+    salary: 56000
+}
+
+console.log(amjad);
+console.log(typeof amjad);
